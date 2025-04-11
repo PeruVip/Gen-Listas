@@ -15,7 +15,7 @@ function copyUrl() {
     //document.getElementById("lista").textContent = (URL = `http://gzytv.vip:8880/get.php?username=${usuario}&password=${password}=Ua7vofbxiS&type=m3u_plus&output=mpegts`)
   
     document.getElementById("lista").textContent = new URL(
-      `http://fuxionprotv.online:80/get.php?username=${usuario}&password=${password}&type=m3u_plus&output=hls`
+      `http://fuxionprotv.online:8080/get.php?username=${usuario}&password=${password}&type=m3u_plus&output=hls`
     );
   }
   
